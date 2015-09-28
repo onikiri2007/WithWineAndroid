@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bluechilli.withwine.RegistrationFragment"
+    android:padding="@dimen/activity_padding"
+    >
+
+    <include android:id="@+id/number_entry"
+        android:layout_centerHorizontal="true"
+        layout="@layout/number_entry_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number_entry"
+        android:text="SIGN UP"
+        android:padding="@dimen/button_padding"
+        style="@style/primary_full_size_button"
+        android:background="@color/_accent"
+        android:id="@+id/sign_up_button"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_button"
+        style="@style/TextViewSecondary"
+        android:text="@string/phone_number_registration_help_text"
+        android:padding="@dimen/activity_padding_large"
+     />
+
+</RelativeLayout>

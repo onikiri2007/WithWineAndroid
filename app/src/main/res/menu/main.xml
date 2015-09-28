@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/profile" android:icon="@drawable/ic_profile" android:orderInCategory="3" app:showAsAction="always" android:title="Profile" />
+    <item android:id="@+id/history" android:icon="@drawable/ic_history"  android:orderInCategory="4" app:showAsAction="always" android:title="History" />
+    <item android:id="@+id/feed" android:icon="@drawable/ic_feed"  android:orderInCategory="5" app:showAsAction="always" android:title="Updates"  />
+    <item android:id="@+id/winery" android:icon="@drawable/ic_wineries"  android:orderInCategory="1" app:showAsAction="always" android:title="Winaries" />
+</menu>

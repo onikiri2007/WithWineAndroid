@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_retry_overlay"
+    android:id="@+id/retry_view"
+    android:visibility="gone"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/retryTextView"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/retry_message"
+        android:textColor="@color/_text_color"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/retryTextView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/retry_button"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_refresh_white_24dp"
+        />
+</RelativeLayout>

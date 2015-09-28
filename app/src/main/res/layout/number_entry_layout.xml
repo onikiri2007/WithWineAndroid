@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_padding"
+    android:visibility="gone"
+   >
+
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/country_code"
+        android:text="@string/default_country_code"
+        style="@style/TextViewHeading"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="right"
+      />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:numeric="integer"
+        style="@style/TextViewHeading"
+        android:inputType="phone"
+        android:digits="0123456789"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/phone_number"
+      />
+</LinearLayout>

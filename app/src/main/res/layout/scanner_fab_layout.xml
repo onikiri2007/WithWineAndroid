@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/btn_scan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_scanner"
+    app:fabSize="normal"
+    app:borderWidth="0dp"
+    android:layout_gravity="bottom|end"
+    app:elevation="@dimen/fab_elevation"
+    app:pressedTranslationZ="@dimen/fab_translation_z_pressed"
+    android:layout_marginBottom="@dimen/activity_padding"
+    android:layout_marginRight="@dimen/activity_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

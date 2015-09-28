@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/winery_name"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/activity_padding"
+        android:layout_marginLeft="@dimen/activity_padding"
+        android:layout_marginRight="@dimen/activity_padding"
+        style="@style/TextViewPrimary"
+        android:text="Tallavera Grove"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_name"
+        android:layout_below="@+id/winery_name"
+        style="@style/TextViewSecondary"
+        android:text="Tallavera Grove Vineyard"
+        android:layout_marginBottom="@dimen/activity_padding"
+        android:layout_marginLeft="@dimen/activity_padding"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/winery_name"
+        android:id="@+id/distance"
+        android:text="114.4km"
+        style="@style/TextViewSecondary"
+        android:layout_marginBottom="@dimen/activity_padding"
+        android:layout_marginRight="@dimen/activity_padding"
+        />
+
+</RelativeLayout>
